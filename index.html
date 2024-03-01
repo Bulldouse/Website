@@ -1,0 +1,132 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Tamplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="TYC-CSS.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+<table width="98%" border="1" style="margin: auto;">
+  <tbody>
+    <tr>
+      <td><div class="Highlight" ><a href="Home.html">Home page</a></div></td>
+      <td colspan="2"><img src="Images/nba-los-angeles-lakers-logo-font.png" width="143" height="83" alt=""/></td>
+      <td><div class="Highlight">Lakers</div></td>
+    </tr>
+    <tr>
+      <td colspan="4"><div id="content"><!-- InstanceBeginEditable name="Content" -->This is my home
+        <table width="98%%" border="1" cellpadding="5" style="margin: auto;">
+          <tbody>
+            <tr>
+				<td colspan="2" style="padding:0px; text-align: center;"><h2 id="HomeHeader">Welcome to Lakers basketball club</h2></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center;">
+				
+				<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="Images/Laker caros.PNG" width="700" alt=""/>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="Images/match lakers caros 3.PNG" width="700" alt=""/>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="Images/lakers team caros 2.PNG" width="700" alt=""/>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+				
+			<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>	
+				
+				
+				
+				</td>
+            </tr>
+            <tr id="HomeContent1">
+              <td><p>Lakers basketball club is a basketball team in professional NBA league in USA, they won a big amount od trophies, some of them are :&nbsp; &nbsp;</p>
+				<ul>
+				  <li>1949 year, 4-2 against the Washington Capitols</li>
+				  <li>1954 year, 4-3 against the Syracuse Nationals</li>
+				  <li>1987 year, 4-2 against the Boston Celtics</li>
+				  <li>2001 year, 4-1 against the Philadelphia 76ers</li>
+					<p>Come to our future games to check us out</p>
+                </ul>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/8pckhl6aooE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<p>&nbsp;</p>
+				</td>
+              <td width="30%">
+				<p>Come check us out at:</p>
+				  <p>2275 E Mariposa Ave<br> EI Segundo <br>CA 90245 <br>United States </p>
+				  <p>Tel:(310) 426-6000 </p>
+				  <p>Email: humanresources@la-lakers.com.</p>
+				</td> 
+		  
+		  
+            </tr>
+          </tbody>
+        </table>
+page<!-- InstanceEndEditable --></div</td>
+    </tr>
+    <tr>
+      <td class="NavMenu"><div class="NavButton" ><a href="Our%20players%20Page.html">Our players</a></div></td>
+      <td class="NavMenu"><div class="NavButton" ><a href="Upcoming%20games%20page.html">Upcoming games</a></div></td>
+      <td class="NavMenu"><div class="NavButton" ><a href="Achievements%20page.html">Achievements</a></div></td>
+      <td class="NavMenu"><div class="NavButton" ><a href="Contacts.html">Contacts</a></div></td>
+    </tr>
+    <tr>
+      <td colspan="4"><div class="Highlight" id="Header"><a href="Team%20partnerships.html">Team partnerships</a></div></td>
+    </tr>
+  </tbody>
+</table>
+	
+</body>
+<!-- InstanceEnd --></html>

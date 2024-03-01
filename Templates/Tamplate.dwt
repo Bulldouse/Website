@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../TYC-CSS.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+<table width="98%" border="1" style="margin: auto;">
+  <tbody>
+    <tr>
+      <td><div class="Highlight" ><a href="../Home.html">Home page</a></div></td>
+      <td colspan="2"><img src="../Images/nba-los-angeles-lakers-logo-font.png" width="143" height="83" alt=""/></td>
+      <td><div class="Highlight">Lakers</div></td>
+    </tr>
+    <tr>
+      <td colspan="4"><div id="content"><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable --></div</td>
+    </tr>
+    <tr>
+      <td class="NavMenu"><div class="NavButton" ><a href="../Our players Page.html">Our players</a></div></td>
+      <td class="NavMenu"><div class="NavButton" ><a href="../Upcoming games page.html">Upcoming games</a></div></td>
+      <td class="NavMenu"><div class="NavButton" ><a href="../Achievements page.html">Achievements</a></div></td>
+      <td class="NavMenu"><div class="NavButton" ><a href="../Contacts.html">Contacts</a></div></td>
+    </tr>
+    <tr>
+      <td colspan="4"><div class="Highlight" id="Header"><a href="../Team partnerships.html">Team partnerships</a></div></td>
+    </tr>
+  </tbody>
+</table>
+	
+</body>
+</html>
